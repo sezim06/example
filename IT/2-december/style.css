@@ -76,10 +76,11 @@ flex: 41.6% 0 0;
  flex: 91.6% 0 0 ; 
 }
 .card {
-  background-color: rgb(0, 1, 14);
+  background-image: url(./main.png);
   border: 5px solid rgb(0, 0, 0);
   box-shadow: 0 0 10px 5px rgb(0, 0, 0);
   margin-bottom: 15px;
+
   box-shadow: 10px 10px 0 0 rgb(203, 211, 225);
 transition: all 100ms ease-in;
 
@@ -92,10 +93,12 @@ transition: all 100ms ease-in;
 }
 .card .card-content {
   padding: 10px 15px;
+background-color: rgba(20, 142, 142, 0);
 }
 
 .card.card-horizonal .card-imge {
   width: 30%;
+  
 }
 h1 {
   text-shadow: 5px 5px rgb(119, 31, 31);
