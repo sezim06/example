@@ -1,0 +1,110 @@
+h5{
+  color:chocolate;
+  font-size: 30px;
+  text-align: center;
+  font-style: oblique;
+  text-decoration: underline;
+}
+h1{
+  color:black;
+  font-size: 35px;
+  text-align: center;
+  font-style: inherit;
+  text-decoration: dotted;
+}
+P{
+  color:black;
+  font-size: 20px;
+  font-style: italic;
+  text-decoration: hsla(hue, saturation, lightness, alpha)
+}
+h3{
+  color:chocolate;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+}
+h2{
+  color:black;
+  font-size: 35px;
+  text-align: center;
+  font-style: unset;
+  text-decoration: double;
+}
+p{
+  color: brown;
+  font-style: italic;
+}
+h4{
+  color:chocolate;
+  font-size: 30px;
+  text-align: center;
+  font-style: oblique;
+  text-decoration: underline;
+}
+p{
+  color: rgb(1, 1, 1);
+  font-style: italic;
+}
+h7{
+  color:chocolate;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+}
+h8{
+  color:chocolate;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+}
+p{
+  color: rgb(22, 3, 3);
+  font-style: italic;
+}
+h6{
+  color:black;
+  font-size: 35px;
+  text-align: center;
+  font-style: unset;
+  text-decoration: double;
+}
+h9{
+  color:black;
+  font-size: 35px;
+  text-align: center;
+  font-style: italic;
+  text-decoration: double;
+}
+h10{
+  color:rgb(87, 52, 4);
+  font-size: 35px;
+  text-align: center;
+  font-style: italic;
+  text-decoration: double;
+}
+p{
+  color:blue;
+  font-style: italic;
+}
+h11{
+  color:black;
+  font-size: 35px;
+  text-align: center;
+  font-style: italic;
+  text-decoration: double;
+}
+р11{
+  color:rgb(87, 52, 4);
+  font-size: 35px;
+  text-align: center;
+  font-style: italic;
+  text-decoration: double;
+}
+p{
+  color:blue;
+  font-size: 35;
+}

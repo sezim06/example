@@ -1,0 +1,42 @@
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  padding: 0 70px;
+ 
+
+}
+.content {
+  
+font-family: 'Times New Roman', Times, serif;
+display: flex;
+justify-content:space-between;
+}
+.f2 a {
+ color: rgb(12, 4, 113);
+
+
+}
+.f2 p {
+  font-family: 'Nunito', sans-serif;
+}
+.f2 h2 {
+  font-family: 'Work Sans', sans-serif;
+}
+.sidebar h1 {
+  font-family: 'Work Sans', sans-serif;
+}
+.container1 {
+  
+  padding: 0 70px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer a {
+  text-decoration: none;
+
+
+}

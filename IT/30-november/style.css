@@ -1,0 +1,104 @@
+
+*{ 
+  box-sizing: border-box; 
+} 
+body {
+ 
+font-size: 20px;
+
+
+background-repeat: no-repeat;
+background-size: 200px;
+color: rgb(0, 0, 0);
+}
+.container{/*задать ширину и выровнять по середину*/ 
+  background-image: url(./cord-1.png);
+ max-width: 980px; 
+ margin: 0 auto; 
+
+ 
+} 
+.row{/*строка*/ 
+  display: flex; 
+  flex-wrap: wrap;
+ 
+}
+[class^="col"] {
+padding: 0 10px;
+
+} 
+.col-4{ /* 100% / 12 * 4 */ 
+  flex-basis: 33.3%; 
+  flex-grow: 0; 
+  flex-shrink: 0; 
+} 
+.col-3{ 
+  flex-basis: 25% ; 
+  flex-grow: 0; 
+  flex-shrink: 0; 
+} 
+.col-6{ 
+  flex-basis: 16.6%; 
+  flex-grow: 0; 
+  flex-shrink: 0; 
+} 
+.col-12{ 
+  flex: 100% 0 0; 
+} 
+.col-1{ 
+  flex: 8.3% 0 0; 
+ 
+} 
+.col-2{ 
+  flex: 16.6% 0 0; 
+} 
+.col-5{ 
+flex: 41.6% 0 0; 
+} 
+.col-6{ 
+  flex: 50% 0 0; 
+} 
+.col-7{ 
+  flex: 58.3% 0 0; 
+} 
+.col-8{ 
+  flex: 66.6% 0 0; 
+} 
+.col-9{ 
+  flex: 75% 0 0; 
+} 
+.col-10{ 
+  flex: 83% 0 0; 
+} 
+.col-11{ 
+ flex: 91.6% 0 0 ; 
+}
+.card {
+  background-color: rgb(110, 110, 226);
+  border: 1px solid black;
+  box-shadow: 0 0 10px 5px black;
+  margin-bottom: 15px;
+  box-shadow: 5px 5px 0 0 rgb(27, 46, 81);
+  transform: rotate(1deg);
+  transition: all 100ms ease-in;
+  animation:forwards;
+}
+.card:hover {
+  transform: rotate(-2deg) scale(1.05);
+}
+.card .card-imge {
+  width: 100%;
+}
+.card .card-content {
+  padding: 10px 15px;
+}
+.card.card-horizonal {
+  display: flex;
+
+}
+.card.card-horizonal .card-imge {
+  width: 30%;
+}
+h1 {
+  text-shadow: 5px 5px rgb(147, 4, 4);
+}

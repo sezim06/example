@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+table{
+  border-collapse: collapse;
+}
+td,th{
+  padding: 2px 5px;
+  border-bottom: 1px solid grey;
+}
+
+tr:nth-of-type(even) td{
+background-color: grey;
+}
+tr:hover td{
+  background-color: rgb(42, 42, 98);
+}
+
+tr:last-child th{
+  border: none;
+}

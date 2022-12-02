@@ -1,0 +1,59 @@
+
+body { 
+  margin: 0; 
+} 
+ 
+ 
+.nav1 ul li { 
+  display: inline; 
+ } 
+ .nav1 ul { 
+   background-color: rgba(37, 37, 204, 0.867); 
+   text-align: center; 
+ } 
+ .nav1 ul li a { 
+   color: rgb(255, 255, 255); 
+   text-decoration:  none;  
+   font-family: 'Segoe UI', Tahoma,  
+   Geneva, Verdana, sans-serif;  
+   font-weight: 500; 
+    
+  
+  
+   padding-left: 10px; 
+   padding-right: 10px; 
+   padding-top: 10px; 
+   padding-bottom: 10px; 
+  
+   display: inline-block; 
+ } 
+ main { 
+ max-width: 500px; 
+ margin-left: auto; 
+ margin-right: auto; 
+ } 
+ 
+ .nav2 ul li { 
+  display: inline; 
+ } 
+ .nav2 ul { 
+   background-color: rgb(16, 16, 15); 
+   text-align: center; 
+ } 
+ .nav2 ul li a { 
+   color: rgb(255, 255, 255); 
+   text-decoration:  none;  
+   font-family: 'Segoe UI', Tahoma,  
+   Geneva, Verdana, sans-serif;  
+   font-weight: 500; 
+    
+  
+  
+   padding-left: 10px; 
+   padding-right: 10px; 
+   padding-top: 10px; 
+   padding-bottom: 10px; 
+  
+   display: inline-block; 
+ }
+

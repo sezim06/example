@@ -1,0 +1,62 @@
+h1 {
+  color: rgb(127, 129, 255);
+  font-size: 50px;
+  font-weight: 700;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  text-decoration: underline;
+  text-transform:lowercase ;  
+  
+}
+h2{
+  color:rgb(145, 53, 53);
+  font-size :50px;
+  font-weight: 300;
+  font-style: oblique;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  text-decoration: overline;
+  text-transform: inherit;
+}
+h3{
+  color:rgb(255, 0, 123);
+  font-size: 50px;
+  font-weight: 200;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  text-decoration: line-through;
+  text-transform: uppercase;
+}
+h4{
+  color:rgb(70, 14, 14);
+  font-size: 50px;
+  font-weight: 300;
+  font-style: inherit;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+  text-decoration: dotted;
+  text-transform: unset;
+}
+h5{
+  color:rgb(45, 32, 15);
+  font-size: 50px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  text-decoration: orchid;
+  text-transform: initial;
+}
+h6{
+  color:rgb(32, 15, 12);
+  font-size:50px;
+  font-weight: 600;
+  font-style: unset;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  text-decoration: overline;
+  text-transform: lowercase;
+  }
+

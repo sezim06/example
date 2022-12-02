@@ -1,0 +1,53 @@
+*{ 
+  box-sizing: border-box; 
+} 
+ 
+section { 
+  display:flex;/* make a flex container*/ 
+  flex-direction: row; /* container diectiion*/
+   justify-content: flex-end;/*align main axis*/
+   flex-wrap: wrap;/*wrap element wothin container*/
+   align-content: stretch;/*align cross axis*/
+   align-items: center;/*align within row cross axis*/
+
+   
+  height: 96vh; 
+} 
+section div{ 
+  background-color: rgb(11, 165, 189); 
+  width: 100px; 
+  height: 100px; 
+  color:white; 
+  font-size: 60px; 
+  padding: 10px; 
+  margin: 10px; 
+  text-align: center; 
+ 
+} 
+section div:nth-child(2){ 
+height: 140px; 
+order:1 ;
+align-self: flex-start;
+flex-grow: 1;
+flex-shrink: 0;
+flex-basis: 0 ;
+flex: 0 1 0;
+
+
+} 
+section div:nth-child(4){ 
+  height: 90px; 
+ 
+} 
+section div:nth-child(5){ 
+  height: 110px; 
+ 
+} 
+section div:nth-child(7){ 
+  height: 150px; 
+ 
+} 
+section div:nth-child(9){ 
+  height: 80px; 
+ 
+}

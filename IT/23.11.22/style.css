@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 50px;
+  padding: 50px;
+  
+}
+.container {
+  display: flex;
+  max-width: 980px;
+  padding: 30px;
+  background-color: rgb(216, 120, 120);
+  margin: 0 auto;
+}
+.box {
+  padding: 20px;
+}
+.ml {
+ 
+}
+.blue {
+  background-color: rgb(6, 6, 76);
+  flex: 1 1 0px;color: white;
+}

@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+.navbar-1 {
+ box-shadow: 0 0 10px black;
+}
+body {
+  margin: 0;
+}
+header{
+  
+  max-width: 980PX;
+  margin: 0 auto;
+ 
+
+ 
+}
+div {
+
+   
+
+   margin: 15px;
+   padding: 15px;
+}
+   
+nav ul {
+ 
+  list-style-type: none;
+}
+ nav {
+  
+  display: flex;
+  justify-content: center;
+
+}
+ nav a {
+  text-decoration: none;
+  color: rgb(9, 9, 150);
+  padding: 10px;
+  border-radius: 10%;
+}
+.box-1 a:hover{
+  background-color: rgb(52, 52, 165);
+  color: white;
+}
+
+
+
+
+
+
+
+

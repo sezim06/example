@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  color: brown;
+  width: 10px;
+}
+p {
+  color: chartreuse;
+}

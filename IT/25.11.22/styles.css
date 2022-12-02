@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  
+}
+.navbar-2 {
+  box-shadow: 0 0 10px red;
+}
+body{
+  margin: 0;
+}
+.nava {
+  max-width:980px;
+  margin: 0 auto;
+}
+div {
+
+  margin: 15px;
+  padding: 15px;
+}
+.box ul {
+  list-style-type: none;
+}
+.box {
+  display: flex;
+  justify-content: center;
+}
+.box a{
+  text-decoration: none;
+}
+.box a:hover {
+color: rgba(66, 65, 65, 0.573);
+}
+.box-2 {
+ display: flex;
+}
+.box-2 ul {
+  list-style-type: none;
+}
+.box-2 a {
+  text-decoration: none;
+  color: rgb(47, 9, 214);
+  border-style: solid;
+  border-radius: 10px;
+  
+
+
+  
+}
+img {
+  width:30px;
+  margin-top: -150px;
+}
