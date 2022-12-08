@@ -8,13 +8,13 @@ font-size: 20px;
 
 background-repeat: no-repeat;
 background-size: 200px;
-color: rgb(242, 242, 242);
+color: rgb(231, 231, 231);
 }
 .container{/*задать ширину и выровнять по середину*/ 
 
- background-image: url(./phon.png);
+ background-image:url(./imge-2.png);
 background-size: 700px;
-
+font-family: 'Dancing Script', cursive;
  max-width: 980px; 
  margin: 0 auto; 
 
@@ -41,8 +41,9 @@ padding: 0 10px;
 } 
 .col-6{ 
   flex-basis: 16.6%; 
-  flex-grow: 0; 
+
   flex-shrink: 0; 
+
 } 
 .col-12{ 
   flex: 100% 0 0; 
@@ -76,17 +77,18 @@ flex: 41.6% 0 0;
  flex: 91.6% 0 0 ; 
 }
 .card {
-  background-image: url(./main.png);
-  border: 5px solid rgb(0, 0, 0);
+  
+ 
+  border: 2px solid rgba(3, 0, 0, 0.776);
   box-shadow: 0 0 10px 5px rgb(0, 0, 0);
   margin-bottom: 15px;
 
-  box-shadow: 10px 10px 0 0 rgb(203, 211, 225);
+  box-shadow: 10px 10px 0 0 rgba(39, 93, 186, 0.653);
 transition: all 100ms ease-in;
 
 }
 .card:hover {
-  transform:rotate(-10deg);
+  transform:translate(10px, 10%);
 }
 .card .card-imge {
   width: 100%;
@@ -103,4 +105,10 @@ background-color: rgba(20, 142, 142, 0);
 h1 {
   text-shadow: 5px 5px rgb(119, 31, 31);
   text-align: center;
+  font-family: 'Anton', sans-serif;
+}
+h2 {
+  text-shadow: 5px 5px rgb(0, 0, 0);
+  text-align: center;
+  font-family: 'Anton', sans-serif;
 }
